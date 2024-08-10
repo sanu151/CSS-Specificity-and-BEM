@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BEM Methodology</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card card--large">
+        <!-- Example of Block and Modifier -->
+        <h2 class="card__heading">Card Heading</h2>
+        <!-- Example of Element -->
+        <p class="card__desc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem optio ut
+          neque ratione. Aperiam, ducimus.
+        </p>
+        <button class="card__btn card__btn--large">Learn More</button>
+        <!-- Example of Element and Modifier -->
+      </div>
+
+      <div class="feedback feedback--medium">
+        <h2 class="feedback__heading">Feedback Heading</h2>
+        <p class="feedback__desc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+          voluptate?
+        </p>
+        <button class="feedback__btn feedback__btn--large">Learn More</button>
+      </div>
+    </div>
+
+    <ul class="list">
+      <li class="list__item">Item 1</li>
+      <li class="list__item">
+        Item 2 <img src="#" alt="#" class="list__img" />
+        <!--Nested Class name is not recomended -->
+      </li>
+      <li class="list__item">Item 3</li>
+    </ul>
+  </body>
+</html>

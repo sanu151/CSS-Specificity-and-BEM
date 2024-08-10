@@ -1,0 +1,79 @@
+/* Reset and General Design Start */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+}
+
+div {
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+[class*="btn--large"] {
+  border: none;
+  padding: 0.4rem;
+  width: 10rem;
+  border-radius: 0.4rem;
+}
+/* Reset and General Design End */
+
+/* Container Design Start */
+.container {
+  text-align: center;
+  padding: 2rem;
+  background-color: blanchedalmond;
+}
+
+.card,
+.feedback {
+  width: 50rem;
+  margin: 2rem auto;
+  background-color: cadetblue;
+}
+
+.card__heading,
+.feedback__heading {
+  margin: 1rem;
+  color: brown;
+}
+
+.card__desc,
+.feedback__desc {
+  margin: 1rem;
+}
+
+.card__btn,
+.feedback__btn {
+  background-color: blueviolet;
+  color: white;
+}
+
+.feedback {
+  background-color: greenyellow;
+}
+
+.feedback__heading {
+  color: blue;
+}
+
+.feedback__btn {
+  background-color: tomato;
+}
+/* Container Design End */
+
+/* List Design Start */
+.list {
+  padding: 2rem;
+  background-color: aquamarine;
+}
+
+.list__item {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+/* List Design End */

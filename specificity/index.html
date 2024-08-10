@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Specificity</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="header" class="header-txt">Specificity</h1>
+    <h2 id="header2" style="color: green">Lorem ipsum dolor sit.</h2>
+    <!-- Inline CSS have specifity '1000' -->
+    <p id="para1" class="para-txt1" style="color: brown">
+      Lorem ipsum dolor sit amet.
+    </p>
+    <p class="para-txt2">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="para-txt3">Lorem ipsum dolor sit.</p>
+    <p class="para-txt3">Lorem ipsum dolor sit.</p>
+  </body>
+</html>

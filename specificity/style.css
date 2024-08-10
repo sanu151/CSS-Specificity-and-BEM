@@ -1,0 +1,61 @@
+/* Universal Selector have specificity '0' */
+* {
+  box-sizing: border-box;
+  color: blue;
+}
+
+/* Design h1 tag */
+
+/* Element Selectior have specificity '1' */
+h1 {
+  color: black;
+}
+
+/* Class Selector have specificity '10' */
+.header-txt {
+  color: brown;
+}
+
+/* ID Selector have specificity '100' */
+#header {
+  color: red;
+}
+
+/* Design p#para1 */
+
+/* Inline CSS override ID selector specificity */
+/* Inline CSS have specificity '1000' */
+#para1 {
+  color: red;
+}
+
+/* Design h2#header2 */
+#header2 {
+  color: black;
+}
+
+/* !important have specificity '10000' */
+h2 {
+  color: gold !important;
+}
+
+/* Design p.para-txt2 */
+
+/* Specificity : '10' */
+.para-txt2 {
+  color: black;
+}
+
+/* Specificity : '1 + 10 = 11' */
+p.para-txt2 {
+  color: tomato;
+}
+
+/* For same specificity letest value is gretter */
+.para-txt3 {
+  color: brown;
+}
+
+.para-txt3 {
+  color: black;
+}
